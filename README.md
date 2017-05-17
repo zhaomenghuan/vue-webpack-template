@@ -1,1 +1,1 @@
-# vue-template
+# vue-webpack-template
