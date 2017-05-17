@@ -1,0 +1,21 @@
+{
+  "name": "vue-webpack-template",
+  "version": "1.0.0",
+  "description": "Template for wepack2 + vue2",
+  "main": "meta.js",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/zhaomenghuan/vue-webpack-template.git"
+  },
+  "keywords": [
+    "vue",
+    "webpack",
+    "template"
+  ],
+  "author": "zhaomenghuan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zhaomenghuan/vue-webpack-template/issues"
+  },
+  "homepage": "https://github.com/zhaomenghuan/vue-webpack-template#readme"
+}

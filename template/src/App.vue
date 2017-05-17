@@ -1,7 +1,7 @@
 <template lang="pug">
   div.app
     img(src="./assets/logo.png")
-    h3 hello {{msg}} !
+    h3 hello \{{msg}} !
     p A template for vue.js projects which inclode webpack's basic function,babel's preset and eslint's function.vue router and vuex can choose install.
 </template>
 
