@@ -10,12 +10,12 @@ const appCSS = new ExtractTextPlugin('css/app.css');
 module.exports = {
     entry: {
         "app": './src/main.js',
-        "vendor": ['vue', 'vue-router', 'vuex']
+        "vendor": ['vue'{{#router}}, 'vue-router'{{/router}}{{#vuex}}, 'vuex'{{/vuex}}]
     },
     output: {
         path: path.resolve(__dirname, 'dist'),
         filename: 'js/[name].[hash].js',
-		publicPath: '/'
+		    publicPath: '/'
     },
     module: {
         rules: [
